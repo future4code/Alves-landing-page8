@@ -1,0 +1,48 @@
+* {
+
+    margin: 0%;
+
+}
+
+header{
+    
+    background-color: rgb(241, 200, 148);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+} 
+
+h1 {
+
+    text-align: center;
+    margin-top: 6%;
+
+}
+
+main {
+
+    min-height: 100%;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+footer {
+
+    background-color:  rgb(241, 200, 148);
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
