@@ -6,35 +6,49 @@
 
 header{
     
-    background-color: rgb(241, 200, 148);
+    background-color:  #ff914d;
     display: flex;
     justify-content: space-between;
     padding: 20px;
 
 } 
 
-h1 {
-
-    text-align: center;
-    margin-top: 6%;
+main {
+    
+    border: solid black;
+    border-radius: 2px;
+    margin-top: 10%;
+    margin-left: 600px;
+    margin-right: 80px;
+    min-height: 40%;
+    padding: 5px;
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 25px;
 
 }
 
-main {
+h1 {
 
-    min-height: 100%;
-    padding: 100px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 15px;
+    margin-top: 0%;
+    margin-left: 90px;
+
+}
+
+section {
+
+    margin-top: 1%;
+    margin-left: 40px;
+    width: 35%;
+
+   
 
 }
 
 footer {
 
-    background-color:  rgb(241, 200, 148);
+    background-color:   #ff914d;
     display: flex;
     position: fixed;
     bottom: 0%;
@@ -45,4 +59,5 @@ footer {
     gap: 10px;
 
 }
+
 
