@@ -8,72 +8,69 @@
     <link rel="stylesheet" href="cadastro.css">
 </head>
 <body>
-    
+
     <header>
         <img class= "logo"src="./img/Design sem nome (4).png" alt="logo">
     </header>
-    
+
 
     <main>
 
-        <div class="conteiner">
+        <section class="conteiner">
 
             <div class="form-img">
-                <img src="./img/f4bank.png" alt="">
-    
+                <img src="./img/f4bank.png" alt="icone banco">
+
                 <div class="formulario">
                     <form action="#">
                         <div class="form-header">
                             <div class="titulo">
-                                <h1>Cadastre-se</h1>
+                                <h1>Abra sua conta </h1>
                             </div>
+
                             <div class="login">
                                 <button> <a href="">Entrar</a></button>
                             </div>
-    
-                            <div class="input-grup"> 
-                                <div class="box">
-                                    <label for="Firstname">Primerio nome</label>
-                                    <input  id="Firstname"type="text" name="Firstname" required>
-                                </div>
-                                <div class="box">
-                                    <label for="lastname">Sobrenome</label>
-                                    <input  id="lastname"type="text" name="lastname" required>
-                                </div>
-                                <div class="box">
+
+                                <div class="input-grup"> 
+                                
+                                    <label for="Number">CPF</label>
+                                    <input  id="Number" type="cpf" required>
+
+                                    <label for="name">Digite seu nome completo</label>
+                                    <input  id="name"type="text" name="name" required>
+                                
                                     <label for="email">Email</label>
                                     <input  id="email"type="text" name="email" required>
-                                </div>
-                                <div class="box">
+                            
                                     <label for="Number">celular</label>
                                     <input  id="Number"type="tel" name="Number" required>
-                                </div>
-                                <div class="box">
+    
                                     <label for="password">Senha</label>
                                     <input  id="password"type="password" name="password" required>
-                                </div>
-                                <div class="box">
+
                                     <label for="confirmpassword">Confirme sua senha</label>
                                     <input  id="confirmpassword"type="confirmpassword" name="confirmpassword" required>
+                                
+
                                 </div>
                             </div>
-    
+
                         </div>
-                        
+
                         <div class="botton-confirma">
                            <button><a href="#">Continuar</a></button>
                         </div>
                     </form>
-    
+
                 </div>
-    
+
             </div>
-          </div>
-    
-       
+          </section>
+
+
     </main>
-     
-    
+
+
 </body>
 </html>
-
