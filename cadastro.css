@@ -36,22 +36,41 @@
    .conteiner{
        display: flex;
        height: 80vh;
-       width: 80%;
+       width: 70%;
        box-shadow: 5px 5px 10px black ;
    }
 
 
    .form-img{
        display:flex;
-       width: 70%;
-       transition: 0.7s ease-in-out;
+       width: 50%;
+       
    }
 
-
+  
+   form{
+       display: flex;
+       flex-direction: column;
+       width: 70%;
+       
+   }
+   
    .formulario{
        display: flex;
-       align-items: center;
-       justify-content: center;
+       width: 100%;
+       margin-top: 10%;
        flex-direction: column;
-       padding: 3rem;
+    
    }
+
+   input{
+       margin-top: 30px;
+       height: 40px;
+       padding: 10px;
+       border-radius: 20px;
+       border: 2px solid orange;
+       
+   }
+
+   
+
