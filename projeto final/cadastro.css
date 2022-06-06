@@ -1,0 +1,46 @@
+
+
+.logo{
+    width:5%;
+}
+
+
+.conteiner{
+    display: flex;
+    height: 80vh;
+    width: 70%;
+    box-shadow: 5px 5px 10px black ;
+}
+
+
+.form-img{
+    display:flex;
+    width: 50%;
+    
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
+}
+
+.formulario{
+    display: flex;
+    width: 100%;
+    margin-top: 10%;
+    flex-direction: column;
+ 
+}
+
+input{
+    margin-top: 30px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid orange;
+    
+}
+

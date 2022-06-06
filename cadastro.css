@@ -33,7 +33,7 @@
    }
 
 
-   .conteiner{
+   .conteiner-f{
        display: flex;
        height: 80vh;
        width: 70%;
@@ -53,6 +53,7 @@
        flex-direction: column;
        width: 70%;
        
+       
    }
    
    .formulario{
@@ -60,6 +61,8 @@
        width: 100%;
        margin-top: 10%;
        flex-direction: column;
+       
+    
     
    }
 
