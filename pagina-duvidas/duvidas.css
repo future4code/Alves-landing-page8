@@ -29,7 +29,7 @@ footer {
 
 section {
 
-    background-color: bisque;
+    background-color: white;
     display: flex;
     max-width: 100%;
     min-height: 100%;
@@ -37,8 +37,21 @@ section {
     justify-content: center;
     align-content: center;
     gap: 10px;
-    flex-flow: wrap;
+    flex-flow: nowrap;
 }
+
+section>.fototexto {
+
+    flex: 1;
+
+}
+
+section>.asduvidas1 {
+
+    flex: 3;
+
+}
+
 
 .fototexto{
 
